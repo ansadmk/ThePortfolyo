@@ -1,0 +1,35 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "src_components_Parallax_js";
+exports.ids = ["src_components_Parallax_js"];
+exports.modules = {
+
+/***/ "./src/components/Parallax.js":
+/*!************************************!*\
+  !*** ./src/components/Parallax.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Parallax)\n/* harmony export */ });\n/* harmony import */ var jarallax__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jarallax */ \"jarallax\");\n/* harmony import */ var jarallax__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jarallax__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var jarallax_dist_jarallax_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jarallax/dist/jarallax.css */ \"./node_modules/jarallax/dist/jarallax.css\");\n/* harmony import */ var jarallax_dist_jarallax_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jarallax_dist_jarallax_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"react-redux\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _Redux_selectors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Redux/selectors */ \"./Redux/selectors.js\");\n/* harmony import */ var _Redux_axios__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Redux/axios */ \"./Redux/axios.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);\nvar _jsxFileName = \"/home/luffy/Downloads/kura/src/components/Parallax.js\";\n\n\n\n\n\n // import \"./styles.css\";\n\n\nfunction Parallax() {\n  const youtubeVid = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useSelector)(_Redux_selectors__WEBPACK_IMPORTED_MODULE_4__.youtubeFirst);\n  const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_3__.useDispatch)();\n  (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(() => {\n    dispatch((0,_Redux_axios__WEBPACK_IMPORTED_MODULE_5__.FetchData)());\n  }, []);\n  (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(() => {\n    if (youtubeVid) {\n      (0,jarallax__WEBPACK_IMPORTED_MODULE_0__.jarallaxVideo)();\n      (0,jarallax__WEBPACK_IMPORTED_MODULE_0__.jarallax)(document.querySelectorAll(\".jarallax\"), {\n        speed: 0.2,\n        videoSrc: `https://www.youtube.com/watch?v=${youtubeVid.embedId}`\n      });\n    }\n  });\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxDEV)(\"div\", {\n    className: \"jarallax\"\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 26,\n    columnNumber: 10\n  }, this);\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9QYXJhbGxheC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7Q0FFQTs7O0FBRWUsU0FBU08sUUFBVCxHQUFvQjtBQUNqQyxRQUFNQyxVQUFVLEdBQUNKLHdEQUFXLENBQUNDLDBEQUFELENBQTVCO0FBQ0EsUUFBTUksUUFBUSxHQUFDTix3REFBVyxFQUExQjtBQUNBRCxFQUFBQSxnREFBUyxDQUFDLE1BQU07QUFDZE8sSUFBQUEsUUFBUSxDQUFDSCx1REFBUyxFQUFWLENBQVI7QUFFRCxHQUhRLEVBR1AsRUFITyxDQUFUO0FBS0FKLEVBQUFBLGdEQUFTLENBQUMsTUFBTTtBQUNkLFFBQUlNLFVBQUosRUFBZ0I7QUFDZFAsTUFBQUEsdURBQWE7QUFDYkQsTUFBQUEsa0RBQVEsQ0FBQ1UsUUFBUSxDQUFDQyxnQkFBVCxDQUEwQixXQUExQixDQUFELEVBQXlDO0FBQy9DQyxRQUFBQSxLQUFLLEVBQUUsR0FEd0M7QUFFL0NDLFFBQUFBLFFBQVEsRUFBRyxtQ0FBa0NMLFVBQVUsQ0FBQ00sT0FBUTtBQUZqQixPQUF6QyxDQUFSO0FBSUQ7QUFDRixHQVJRLENBQVQ7QUFTQSxzQkFBTztBQUFLLGFBQVMsRUFBQztBQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFBUDtBQUNEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8va3VyYS8uL3NyYy9jb21wb25lbnRzL1BhcmFsbGF4LmpzP2NkNDUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgamFyYWxsYXgsIGphcmFsbGF4VmlkZW8gfSBmcm9tIFwiamFyYWxsYXhcIjtcclxuaW1wb3J0IFwiamFyYWxsYXgvZGlzdC9qYXJhbGxheC5jc3NcIjtcclxuaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCB7IHVzZURpc3BhdGNoLCB1c2VTZWxlY3RvciB9IGZyb20gXCJyZWFjdC1yZWR1eFwiO1xyXG5pbXBvcnQgeyB5b3V0dWJlRmlyc3QgfSBmcm9tIFwiLi4vLi4vUmVkdXgvc2VsZWN0b3JzXCI7XHJcbmltcG9ydCB7IEZldGNoRGF0YSB9IGZyb20gXCIuLi8uLi9SZWR1eC9heGlvc1wiO1xyXG4vLyBpbXBvcnQgXCIuL3N0eWxlcy5jc3NcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBhcmFsbGF4KCkge1xyXG4gIGNvbnN0IHlvdXR1YmVWaWQ9dXNlU2VsZWN0b3IoeW91dHViZUZpcnN0KVxyXG4gIGNvbnN0IGRpc3BhdGNoPXVzZURpc3BhdGNoKClcclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgZGlzcGF0Y2goRmV0Y2hEYXRhKCkpXHJcbiAgICBcclxuICB9LFtdKVxyXG5cclxuICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgaWYgKHlvdXR1YmVWaWQpIHtcclxuICAgICAgamFyYWxsYXhWaWRlbygpO1xyXG4gICAgICBqYXJhbGxheChkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKFwiLmphcmFsbGF4XCIpLCB7XHJcbiAgICAgICAgc3BlZWQ6IDAuMixcclxuICAgICAgICB2aWRlb1NyYzogYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9JHt5b3V0dWJlVmlkLmVtYmVkSWR9YCxcclxuICAgICAgfSk7XHJcbiAgICB9XHJcbiAgfSk7XHJcbiAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPVwiamFyYWxsYXhcIiAvPjtcclxufVxyXG4iXSwibmFtZXMiOlsiamFyYWxsYXgiLCJqYXJhbGxheFZpZGVvIiwidXNlRWZmZWN0IiwidXNlRGlzcGF0Y2giLCJ1c2VTZWxlY3RvciIsInlvdXR1YmVGaXJzdCIsIkZldGNoRGF0YSIsIlBhcmFsbGF4IiwieW91dHViZVZpZCIsImRpc3BhdGNoIiwiZG9jdW1lbnQiLCJxdWVyeVNlbGVjdG9yQWxsIiwic3BlZWQiLCJ2aWRlb1NyYyIsImVtYmVkSWQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/Parallax.js\n");
+
+/***/ }),
+
+/***/ "./node_modules/jarallax/dist/jarallax.css":
+/*!*************************************************!*\
+  !*** ./node_modules/jarallax/dist/jarallax.css ***!
+  \*************************************************/
+/***/ (() => {
+
+
+
+/***/ })
+
+};
+;
