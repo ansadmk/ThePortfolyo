@@ -27,7 +27,6 @@ const Header = ({ dark }) => {
         
       }
     }
-    console.log(Logo);
   return (
     <Fragment>
       <div className={"kura_tm_topbar"}>

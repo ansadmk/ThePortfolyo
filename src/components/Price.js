@@ -6,7 +6,9 @@ const Price = () => {
   const aboutData=useSelector(about)
   const service=useSelector(services)
 
-
+  if (service.length>0 && aboutData.description) {
+    
+  
   return (
     <div className="kura_tm_section" id="price">
       <div className="kura_tm_pricing">
@@ -273,7 +275,8 @@ const Price = () => {
         </div>
       </div>
     </div>
-  );
+  )}
+  return null
 };
 
 export default Price;

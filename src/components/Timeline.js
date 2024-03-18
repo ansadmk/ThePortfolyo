@@ -17,7 +17,9 @@ const Timeline = () => {
     setOpen(false);
     setModalValue({});
   };
-  console.log(timelines,'time');
+  if (timelines.length>0) {
+    
+  
   return (
     <div className="kura_tm_section" id="timeline">
       <div className="kura_tm_timeline">
@@ -59,7 +61,8 @@ const Timeline = () => {
        items={modalValue}
       />
     </div>
-  );
+  );}
+  return null
 };
 
 export default Timeline;

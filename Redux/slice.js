@@ -22,7 +22,6 @@ social_handles:[]
     builder
       
       .addCase(FetchData.fulfilled, (state, action) => {
-        console.log(action.payload.user.about)
         state.userAbout = action.payload.user.about
         state.services = action.payload.user.services
         state.Projects = action.payload.user.projects

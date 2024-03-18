@@ -15,7 +15,6 @@ const Home = () => {
   const aboutData=useSelector(about)
   const service=useSelector(services)
   
-  console.log(service);
   const onOpenModal = (img, title,desc) => {
     setOpen(true);
     setModalValue({ img, title,desc });

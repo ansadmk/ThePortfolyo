@@ -21,6 +21,8 @@ const Skills = () => {
   });
   const aboutData=useSelector(about)
   const Skill=useSelector(skills)
+  if (Skill.length>0 && aboutData.description) {
+    
   
 
   return (
@@ -43,39 +45,7 @@ const Skills = () => {
                 data-wow-duration=".7s"
                 data-wow-delay=".2s"
               >
-                {/* <div className="progress_inner" data-value="95">
-                  <span>
-                    <span className="label">HTML &amp; CSS</span>
-                    <span className="number">95%</span>
-                  </span>
-                  <div className="background">
-                    <div className="bar">
-                      <div className="bar_in" style={{ width: "95%" }}></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="progress_inner" data-value="80">
-                  <span>
-                    <span className="label">JavaScript</span>
-                    <span className="number">80%</span>
-                  </span>
-                  <div className="background">
-                    <div className="bar">
-                      <div className="bar_in" style={{ width: "80%" }}></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="progress_inner" data-value="90">
-                  <span>
-                    <span className="label">WordPress</span>
-                    <span className="number">90%</span>
-                  </span>
-                  <div className="background">
-                    <div className="bar">
-                      <div className="bar_in" style={{ width: "90%" }}></div>
-                    </div>
-                  </div>
-                </div> */}
+                
                 {Skill.filter((i)=>i.enabled==true).map((item)=>(<div className="progress_inner" data-value={item.percentage}>
                   <span>
                     <span className="label"><img src={item.image.url} width={64} height={64}/>{item.name}</span>
@@ -103,7 +73,8 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  );
+  );}
+  return null
 };
 
 export default Skills;

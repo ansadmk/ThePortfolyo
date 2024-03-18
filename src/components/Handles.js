@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux'
 import { social } from '../../Redux/selectors'
 const Handles = () => {
   const socials=useSelector(social)
-  console.log(socials,"socials");
   if (socials.length>0) {
     
     return (
